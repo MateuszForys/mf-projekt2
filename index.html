@@ -1,13 +1,23 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mf-projekt2</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="bg-gray-100 p-8">
+    <h1 class="text-2xl font-bold mb-6">Artykuły</h1>
+    <div id="articles"></div>
+
+    <h2 class="text-xl font-bold mt-8 mb-4">Dodaj artykuł</h2>
+    <form id="articleForm" class="space-y-4">
+      <input type="text" id="title" placeholder="Tytuł" required class="block w-full p-2 border" />
+      <input type="text" id="subtitle" placeholder="Podtytuł" required class="block w-full p-2 border" />
+      <input type="text" id="author" placeholder="Autor" required class="block w-full p-2 border" />
+      <textarea id="content" placeholder="Treść" required class="block w-full p-2 border"></textarea>
+      <button type="submit" class="bg-blue-300 p-4">Dodaj artykuł</button>
+    </form>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
