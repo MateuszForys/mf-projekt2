@@ -1,6 +1,5 @@
 import './style.css'
 
-// ⚠️ ZASTĄP SWOIMI DANYMI Z SUPABASE
 const API_URL = 'https://kexsivbljgiclhkrampu.supabase.co/rest/v1/article'
 const API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtleHNpdmJsamdpY2xoa3JhbXB1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk5ODQ0OTksImV4cCI6MjA5NTU2MDQ5OX0.WKmtvtFFfXASWZyUaDDQ0vQCH9AzRk57O94R8LxxJzY'
 
